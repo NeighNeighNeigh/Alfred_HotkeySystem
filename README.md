@@ -4,7 +4,7 @@
 
 # Introduction
 
-I use a combination of [Alfred](https://www.alfredapp.com) and [Karabiner Elements](https://karabiner-elements.pqrs.org) to control my system and applications with 2 main hotkeys. I have a ‘System’ hotkey that performs system-wide tasks, and a ‘App Specific’ hotkey that will perform tasks unique to the currently focussed application. 
+I use a combination of [Alfred](https://www.alfredapp.com) and [Karabiner Elements](https://karabiner-elements.pqrs.org) to control my system and applications with 2 main hotkeys. I have a ‘System’ hotkey that performs system-wide tasks, and an ‘App Specific’ hotkey that will perform tasks unique to the currently focussed application. 
 
 # System-wide Tasks
 
