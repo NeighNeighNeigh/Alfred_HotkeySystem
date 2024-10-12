@@ -1,6 +1,10 @@
+<img width="256" alt="image" src="https://github.com/user-attachments/assets/80f815a5-bbda-4d4f-8966-41561d8edd01"> <img width="256" alt="image" src="https://github.com/user-attachments/assets/8a5f90c3-f176-414c-ab7b-9fbce5c185b1">
+
+
+
 # Introduction
 
-I use a combination of Alfred and Karabiner Elements to control my system and applications with 2 main hotkeys. I have a ‘System’ hotkey that performs system-wide tasks, and a ‘App Specific’ hotkey that will perform tasks unique to the currently focussed application. 
+I use a combination of [Alfred](https://www.alfredapp.com) and [Karabiner Elements](https://karabiner-elements.pqrs.org) to control my system and applications with 2 main hotkeys. I have a ‘System’ hotkey that performs system-wide tasks, and a ‘App Specific’ hotkey that will perform tasks unique to the currently focussed application. 
 
 # System-wide Tasks
 
