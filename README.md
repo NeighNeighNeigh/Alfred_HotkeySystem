@@ -23,6 +23,7 @@ Some examples:
 - **Hyper + V**: Manages your audio settings.
 - **Hyper + P**: Returns you to your last used path in Alfred.
 - **Hyper + R**: Opens your recent files workflow.
+- **Hyper + arrows**: Window management.
 
 By limiting these to commands useful across all applications, you maintain a clean, efficient system.
 
