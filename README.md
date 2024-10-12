@@ -103,6 +103,22 @@ So we: 
 3) Add the app to the ‘Related apps’ filed within the Hotkey Trigger Object. 
 4) Use Alfreds tools to create a list of actions specific to that app.
 
+# App Specific Workflow Examples
+
+I have put together 2 example workflows. Both of these are using the [List Filter Input](https://www.alfredapp.com/help/workflows/inputs/list-filter/) to build a menu of options.
+
+## Example App Control - Basic
+
+In the Basic Example, every item in the List Filter is duplicated into a [Conditional Utility](https://www.alfredapp.com/help/workflows/utilities/conditional/) - then these branch into other Alfred features. So selecting the menu item will execute along the relevant branch. If you want a new menu item, you add it to the List Filter, and the Conditional, followed by whatever you want Alfred to actually do. Do note though, I don't use this method, as I find maintaining it too cumbersome.
+
+## Example App Control - Advanced
+
+In the Advanced Example, we still use a List Filter to choose items. But instead of maintaining a Conditional for every single list item, we make use of Alfred's [Split Arg Utility](https://www.alfredapp.com/help/workflows/utilities/split-arg/). In the Arg field of each List Filter item, the first line is used to indicate which branch to follow in the Conditional. The second line (three dashes '---') is used by the Split Args Utility so that everything below will be passed through to the subsequent objects.
+
+This makes maintaining the menu far easier, as most of the work can be done in the List Filter alone. You might have 20 entries in the List Filter, but only 4 branches in the Conditional. Once set up, whenever you want to add a new menu item you just add it to the List Filter, give it a nice name and an icon, and fill out the Arg field as required.
+
+# Conclusion
+
 And that's it. In the end you have two hotkeys. One you invoke to adjust systems settings, the other when you need to do something in-app. The hotkeys are easy to reach, and one-hit. It's great!
 
 Since implementing it has really become a joy to use. The clear distinction between system and app related interactions works really well for me. Cheers!
