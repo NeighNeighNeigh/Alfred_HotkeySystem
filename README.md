@@ -46,11 +46,11 @@ This allows you to personalize workflows to fit how you use each application.
 
 ## System hotkey
 
-I use Karabiner Elements to create a 'Hyper Key' (Command+Control+Option+Shift simultaneously). Using the Caps Lock key for this is ideal because it's easy to press and not often used otherwise. Regular Caps Lock functionality is still accessible by pressing Shift + Caps Lock.
+I use Karabiner Elements to transform Caps Lock into the 'Hyper Key' (Command+Control+Option+Shift simultaneously). Using the Caps Lock for this is ideal because it's easy to press and not often used otherwise. Regular Caps Lock functionality is still accessible by pressing Shift + Caps Lock.
 
 ## App Specific hotkey
 
-This one is nifty. As a modifier key, Command only ever functions when combined with another key (Command+N for ‘new’ etc). So we can use Karabiner Elements again, this time to remap the Command key to ‘something else’ when it is pressed alone. That ‘something else’ becomes the hotkey to launch our App Specific Alfred Workflows (I use F19 for this)
+This one is _nifty_. As a modifier key, Command only ever functions when combined with another key (Command+N for ‘new’ etc). So we can use Karabiner Elements again, this time to remap the Command key to ‘something else’ when it is pressed alone. That ‘something else’ becomes the hotkey we enter into Alfred to launch our App Specific Alfred Workflows (I use F19 for this).
 
 # System setup
 
